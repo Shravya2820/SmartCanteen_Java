@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="20" alignment="CENTER" stylesheets="@../styles/styles.css">
+    <Label text="Your Order Token" styleClass="header"/>
+    <Label fx:id="tokenLabel" text="Token: " styleClass="token"/>
+    <Label fx:id="itemsLabel" text="Ordered Items: " styleClass="items"/>
+    <Label fx:id="totalLabel" text="Total Amount: " styleClass="total"/>
+    <Button text="Back to Dashboard" onAction="#handleBackToDashboard" styleClass="button"/>
+</VBox>
