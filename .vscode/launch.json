@@ -1,14 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
-        
         {
             "type": "java",
-            "name": "Launch JavaFX App",
+            "name": "Launch SmartCanteen App",
             "request": "launch",
             "mainClass": "com.smartcanteen.controllers.Main",
-            "vmArgs": "--module-path \"C:/javafx-sdk-17/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path C:/javafx-sdk-17/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
